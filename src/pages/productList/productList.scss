@@ -1,0 +1,60 @@
+.productList{
+    .container{
+        h1{
+            margin-left: 40px;
+            margin-top: 7px;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+
+        span{
+            margin: 20px 0 0px 40px;
+            color: rgb(147, 143, 143);
+        }
+
+        .filterContainer{
+            display: flex;
+            justify-content: space-between;
+
+            .filter_products{
+                margin: 20px;
+
+                span{
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-right: 20px;
+                    color: black;
+                }
+
+                select{
+                    padding: 10px;
+                    margin-right: 20px;
+                }
+
+                option{
+
+                }
+            }
+
+            .sort_products{
+                margin: 20px;
+
+                span{
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-right: 20px;
+                    color: black;
+                }
+
+                select{
+                    padding: 10px;
+                    margin-right: 20px;
+                }
+
+                option{
+
+                }
+            }
+        }
+    }
+}
